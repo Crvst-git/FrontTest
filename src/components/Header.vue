@@ -7,6 +7,7 @@ const count = ref(0)
 
 <template>
 
+
 <cv-header aria-label="Carbon header">
   <cv-skip-to-content href="#main-content">
     Skip to content
@@ -71,17 +72,8 @@ const count = ref(0)
 
 
 
-<div class="grayline"></div>
 </template>
 
 <style>
-.grayline{
-  background-color: #6A6565;
-  height: 20px;
-  width: 100%; 
-  position: absolute; 
-  top: 0; 
-  left: 0;
-  z-index: 1;
-}
+
 </style>
